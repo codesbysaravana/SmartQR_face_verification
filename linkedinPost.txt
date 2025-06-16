@@ -1,0 +1,47 @@
+🚀 30 Days of Cloud x AI Projects – Day 7: Smart QR + Face Verification System!
+
+Today, I built a complete identity verification system that's not just smart, but also designed for free-tier / no-cost setup! This project tackles real-world security and efficiency challenges using readily available tech.
+
+🎯 What it does:
+
+✅ Uploads and decodes QR Code images (extracts IDs, hashes, etc.)
+
+✅ Uploads face images for comparison
+
+🧠 Validates identity by matching QR content with AI-powered face recognition
+
+🚀 Provides instant verification results (match/no match)
+
+🛠️ Tech Stack & How I Kept it Cost-Free:
+
+QR Code Detection: pyzbar (open-source)
+
+Face Comparison: OpenCV + FaceNet (via face_recognition library) – no AWS Rekognition needed for free tier!
+
+Image Upload & UI: Streamlit
+
+Backend Logic: Python
+
+Hosting: Deployable via Streamlit Cloud (free tier)
+
+This approach highlights how powerful AI solutions can be built and deployed without incurring significant cloud costs, making advanced tech accessible for solo builders and small projects.
+
+
+
+🔍 Why it matters & Use Cases:
+
+In a world that demands quick and secure identity checks, this system is a game-changer. Imagine:
+
+🎓 College Events: Scan ID card QR + face match for seamless entry.
+
+🏢 Office Attendance: QR badge scan + facial confirmation for clock-ins.
+
+🛂 Border/KYC: Live face vs. passport photo verification.
+
+📦 Smart Delivery: Match recipient ID & face before handoff.
+
+🔥 Key Takeaway:
+
+You don't always need complex, expensive infrastructure to build powerful AI-driven solutions. Resourcefulness and open-source tools can unlock incredible potential for secure and efficient systems!
+
+#30DaysOfCloudxAI #AIProjects #IdentityVerification #QRCode #FaceRecognition #StreamlitApp #OpenSource #Python #ComputerVision #FreeTier #NoCostAI #CloudxAI #SecurityTech #ProjectShowcase
